@@ -1,5 +1,5 @@
-#ifndef GET_CACHE_LINE_SIZE_H_INCLUDED
-#define GET_CACHE_LINE_SIZE_H_INCLUDED
+#ifndef CACHE_LINE_SIZE_H_INCLUDED
+#define CACHE_LINE_SIZE_H_INCLUDED
 
 // Author: Nick Strupat
 // Date: October 29, 2010
