@@ -35,7 +35,7 @@ size_t CacheLineSize() {
 	return lineSize;
 }
 
-#elif defined(linux)
+#elif defined(__linux__)
 
 #include <stdio.h>
 size_t CacheLineSize() {
