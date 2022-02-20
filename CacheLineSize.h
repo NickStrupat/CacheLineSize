@@ -6,6 +6,12 @@
 // Returns the cache line size (in bytes) of the processor, or 0 on failure
 
 #include <stddef.h>
+#ifdef __cplusplus
+extern "C" {
+#endif
 size_t CacheLineSize();
+#ifdef __cplusplus
+}
+#endif
 
 #endif
